@@ -1,5 +1,5 @@
 # _Airspace_ for Jekyll
-![screenshot](screenshots/home.png "Landing")
+![screenshot](/assets/img/screenshots/home.png "Landing")
 
 This Jekyll theme is a rebuild of [Andrew Lee's](https://github.com/ndrewtl/airspace-jekyll) port of ThemeFisher's Airspace template. It is released under ThemeFisher's free license, which requires attribution.
 
