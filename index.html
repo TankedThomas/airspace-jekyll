@@ -32,7 +32,7 @@ permalink: /
       </div><!-- .col-md-7 close -->
       <div class="col-md-5 col-sm-12">
         <div class="block">
-          <img src="/assets/img/wrapper-img.png" alt="Img">
+          <img src="{{ '/assets/img/wrapper-img.png' | relative_url }}" alt="Img">
         </div>
       </div><!-- .col-md-5 close -->
     </div>
@@ -169,7 +169,7 @@ permalink: /
           <div id="testimonial-slider" class="owl-carousel">
             {% for tm in site.data.testimonials %}
             <div>
-                <img src="/assets/img/cotation.png" alt="IMG">
+                <img src="{{ '/assets/img/cotation.png' | relative_url }}" alt="IMG">
                 <p>{{ tm.testimonial }}</p>
                 <div class="user">
                   <img src="{{ tm.image }}" alt="People">
