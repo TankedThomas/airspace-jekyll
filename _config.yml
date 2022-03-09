@@ -41,6 +41,7 @@ keep_files:
   - "CNAME"
   - ".git"
   - ".gitignore"
+  - "/vendor/"
 
 # Category descriptions (for archive pages)
 descriptions:
