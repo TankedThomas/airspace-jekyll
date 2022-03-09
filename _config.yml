@@ -29,7 +29,6 @@ plugins:
 exclude:
   - "*.gemspec"
   - "/docs/"
-  - "/vendor/"
   - "Gemfile"
   - "Gemfile.lock"
   - "LICENSE.md"
