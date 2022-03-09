@@ -1,7 +1,8 @@
 $(document).ready(function(){
 
-
-	$("#portfolio-contant-active").mixItUp();
+	const counterUp = window.counterUp.default
+	const el = document.querySelector( '.counter' )
+	const mixer = mixitup("#portfolio-contant-active");
 
 
 	$("#testimonial-slider").owlCarousel({
@@ -9,9 +10,6 @@ $(document).ready(function(){
 	    singleItem:true,
 	    autoPlay: 3000,
 	});
-
-
-
 
 	$("#clients-logo").owlCarousel({
 		autoPlay: 3000,
@@ -28,26 +26,20 @@ $(document).ready(function(){
 	});
 
 
-	// google map
-		var map;
-		function initMap() {
-		  map = new google.maps.Map(document.getElementById('map'), {
-		    center: {lat: -34.397, lng: 150.644},
-		    zoom: 8
-		  });
-		}
+	// Google Maps
+	function initMap() {
+		const map = new google.maps.Map(document.getElementById('map'), {
+			center: {lat: -34.397, lng: 150.644},
+			zoom: 8
+	  });
+	}
 
 
 	// Counter
-
-	$('.counter').counterUp({
+	counterUp( el, {
         delay: 10,
         time: 1000
     });
 
 
 });
-
-
-
-
