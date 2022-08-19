@@ -1,7 +1,7 @@
 # Airspace Jekyll
 ![Airspace](https://demo.themefisher.com/thumbnails/airspace.png "Landing")
 
-This Jekyll theme is a rebuild of ThemeFisher's free [Airspace Jekyll theme](https://github.com/themefisher/airspace-jekyll), originally ported by [@ndrewtl](https://github.com/ndrewtl). 
+This Jekyll theme is a rebuild of Themefisher's free [Airspace Jekyll theme](https://github.com/themefisher/airspace-jekyll), originally ported by [@ndrewtl](https://github.com/ndrewtl). 
 It is released under the MIT license, which requires preversation of copyright and license notices.
 
 Most everything has been updated, but this is very much still a work-in-progress rebuild, particularly for the JavaScript/jQuery.
@@ -52,12 +52,14 @@ If your problem or idea is not addressed yet, [open a new issue](https://github.
 
 ## Technical Support or Questions
 
-If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
+If you have questions or need help integrating the original theme please [contact Themefisher](mailto:themefisher@gmail.com) instead of opening an issue.
+
+If you have problems with this rebuild, please feel free to open an issue, but keep in mind that this is a work-in-progress.
 
 <!-- licence -->
 ## License
 
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
+Copyright &copy; 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
 
 **Code License:** Released under the [MIT](https://github.com/themefisher/airspace-jekyll/blob/main/LICENSE) license.
 
